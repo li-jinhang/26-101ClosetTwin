@@ -4,3 +4,12 @@
     温度筛选模型训练
     温度筛选模型预测
     
+26.3.8
+    用户衣物图像编码，温度标注脚本
+    info_simulate天气，需求模拟
+
+26.3.9
+    衣物硬筛选功能application_3_tem_filter
+    场景预测模型train_scenary_model, predice_scenary
+    用户数据标签增加场景预测向量application_1_user_annotation
+    基于场景的余弦相似度计算与排序application_4_scene_score_sort

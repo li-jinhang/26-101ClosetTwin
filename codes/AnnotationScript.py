@@ -8,7 +8,7 @@ from google.genai import types
 
 # ================= 配置区域 =================
 KEY_FILE = "api_keys.txt"
-IMAGE_FOLDER = "data\\clothing-dataset-small-master\\train\\shirt"
+IMAGE_FOLDER = "data\\clothing-dataset-small-master\\train\\outwear"
 MODEL_NAME = "gemini-2.5-flash" 
 
 PROMPT = """
