@@ -7,9 +7,9 @@ from transformers import AutoImageProcessor, AutoModel
 # ==================== 🛠️ 用户配置区域 ====================
 CONFIG = {
     # 目标图片文件夹路径
-    "image_dir": "data/clothing-dataset-small-master/train/dress", 
+    "image_dir": "data/train", 
     # 输出特征文件名
-    "output_filename": "_visual_features_dress.jsonl",
+    "output_filename": "_visual_features.jsonl",
     
     # 模型路径
     "model_path": "./mobilevit-small", 

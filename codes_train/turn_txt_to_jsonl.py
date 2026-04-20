@@ -2,9 +2,13 @@ import os
 import json
 
 # --- 配置参数 ---
-input_folder_path = './data/clothing-dataset-small-master/train/dress'  # 你的 txt 文件夹路径
-output_folder_path = './data/clothing-dataset-small-master/train/dress' # 输出文件夹路径
-custom_filename = "_basic_data_dress.jsonl"                             # 自定义文件名
+#input_folder_path = './data/clothing-dataset-small-master/train/dress'  # 你的 txt 文件夹路径
+#output_folder_path = './data/clothing-dataset-small-master/train/dress' # 输出文件夹路径
+#custom_filename = "_basic_data_dress.jsonl"                             # 自定义文件名
+
+input_folder_path = './data/train'  # 你的 txt 文件夹路径
+output_folder_path = './data/train' # 输出文件夹路径
+custom_filename = "_basic_data.jsonl"                             # 自定义文件名
 
 # 拼接完整的输出文件路径
 output_jsonl_path = os.path.join(output_folder_path, custom_filename)

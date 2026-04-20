@@ -6,7 +6,9 @@ from sentence_transformers import SentenceTransformer
 # ==================== 🛠️ 配置区域 ====================
 CONFIG = {
     # 存放输入 JSONL 文件的目录
-    "data_dir": "data/clothing-dataset-small-master/train/dress", 
+    #"data_dir": "data/clothing-dataset-small-master/train/dress", 
+    "data_dir": "data/train", 
+
     # 输入文件名：格式需为 {"temperature_range": "...", "usage_scenario": "..."}
     "input_filename": "scenarios_input.jsonl",
     # 输出文件名：包含原始数据和场景特征向量

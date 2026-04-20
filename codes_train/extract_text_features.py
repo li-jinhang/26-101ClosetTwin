@@ -5,10 +5,10 @@ from sentence_transformers import SentenceTransformer
 
 # ==================== 🛠️ 用户配置区域 ====================
 # 直接使用你从 VS Code 复制的路径结构（去掉了最后的文件名）
-CONFIG = {
-    "data_dir": "data/clothing-dataset-small-master/train/dress", 
-    "input_filename": "_basic_data_dress.jsonl",
-    "output_filename": "_text_features_dress.jsonl",
+CONFIG = { 
+    "data_dir": "data/train", 
+    "input_filename": "_basic_data.jsonl",
+    "output_filename": "_text_features.jsonl",
     
     "model_name": "all-MiniLM-L6-v2",
     "device": "cuda"                            # 'cpu' 或 'cuda'
